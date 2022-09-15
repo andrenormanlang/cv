@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Andre Lang> -- <student> -- <https://twitter.com/a_nlang>
 
 # THANKS
 
-    <name>
+    <>
 
 # TECHNOLOGY COLOPHON
 
