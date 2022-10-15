@@ -20,6 +20,16 @@ body{
     font-family: $font-stack;
 }
 
+.container{
+    width:70%;
+    margin: auto;
+    
+  }
+
+  hr.dot {
+    border-top: 2px dotted ;
+  }
+
 
 /*Navigation bar settings*/
 nav{
@@ -33,9 +43,7 @@ nav{
  
 }
 
-hr.dot {
-  border-top: 2px dotted ;
-}
+
 
 .logo-desktop{
   font-family: 'Inconsolata', monospace;
@@ -76,21 +84,18 @@ hr.dot {
 /*end of animation*/
 
 
+
+
 .nav-wrapper{
   display: flex;
   color:$light-color;
   line-height: 50px;
   position: relative;
-
 }
 
 
 
-.container{
-  width:70%;
-  margin: auto;
-  
-}
+
 
 label, #check, ul.menu-mobile{
   display:none;
@@ -175,6 +180,7 @@ ul.menu-desktop li:hover{
   margin-top: 0;
   transition:.5s;
  }
+
 
 /*end of mobile menu*/ 
 
