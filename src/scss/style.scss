@@ -496,7 +496,7 @@ textarea {
 }
 
 .social-media-list li a {
-  color: $light-color;
+  color: #fff;
 }
 
 .social-media-list li {
@@ -507,7 +507,7 @@ textarea {
   margin: 10px 3px;
   line-height: 60px;
   border-radius: 50%;
-  color: $light-color;
+  color: #fff;
   background-color: rgb(27,27,27);
   cursor: pointer; 
   transition: all .2s ease-in-out;
@@ -523,12 +523,12 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 1px $light-color;
+  box-shadow: 0 0 0 1px #fff;
   transition: all .2s ease-in-out;
 }
 
 .social-media-list li:hover {
-  background-color: $light-color; 
+  background-color: #fff; 
 }
 
 .social-media-list li:hover:after {
@@ -543,7 +543,7 @@ textarea {
 
 
 hr {
-  border-color: $dark-color;
+  border-color: rgba(255,255,255,.6);
 }
 
 /* Begin Media Queries*/
@@ -552,8 +552,6 @@ hr {
     width:100%
   }
 
-
-  
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
@@ -569,35 +567,6 @@ hr {
     line-height: 60px;
   }
 }
-
-@media screen and (max-width: 569px) {
-
-  .direct-contact-container, .form-wrapper {
-    float: none;
-    margin: 0 auto;
-  }  
-
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
-  }  
-  .social-media-list {
-    left: 0;
-  }
-  .social-media-list li {
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    font-size: 2rem;
-  }
-  .social-media-list li:after {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-  }
-  
-}
-
 /*end of banner*/ 
 @media screen and (max-width:1200px){
   ul.menu-desktop{
