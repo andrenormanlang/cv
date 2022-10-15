@@ -198,7 +198,7 @@ textarea {
   *::after {
     background: #fff !important;
     color: #000 !important;
-    /* Black prints faster */
+    /* $dark-color prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
