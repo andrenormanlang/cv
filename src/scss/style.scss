@@ -59,7 +59,6 @@ nav{
   gap: 2px;
   position:absolute;
   padding-left: 10%;
-  padding-right: auto;
 }
 
 .logo-mobile{
@@ -380,16 +379,16 @@ ul.menu-desktop li:hover{
 
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+
   flex-wrap: wrap;
   padding: 0 4px;
  
 }
 
 .column {
-  -ms-flex: 100%; /* IE10 */
+ 
   flex: 100%;
   max-width: 90%;
 
@@ -665,7 +664,6 @@ hr {
       font-family: 'Inconsolata', monospace;
       font-size: 2em;
       padding-left: 5%;
-      padding-right: auto ;
       position: fixed;
   }
 
@@ -920,13 +918,13 @@ ul.menu-mobile li:hover{
   }
 
   .column {
-    -ms-flex: 100%;
+   
     flex: 100%;
     max-width: 100%;
   }
 
   .column {
-    -ms-flex: 100%; /* IE10 */
+    
     flex: 100%;
     max-width: 100%;
    
