@@ -1,18 +1,15 @@
 {
   "name": "cv-andre-lang",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "deploy":"netlify deploy --prod",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "sass": "^1.62.1"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "netlify-cli": "^15.5.1",
     "vite": "^4.3.9"
   }
 }
