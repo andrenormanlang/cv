@@ -346,6 +346,21 @@ h3 .color {
 }
 
 .jscript {
+  width: 30%;
+  background-color: #6b6b6b;
+}
+
+.tscript {
+  width: 30%;
+  background-color: #6b6b6b;
+}
+
+.react {
+  width: 20%;
+  background-color: #6b6b6b;
+}
+
+.next {
   width: 20%;
   background-color: #6b6b6b;
 }
